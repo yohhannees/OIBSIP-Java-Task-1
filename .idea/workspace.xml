@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a65511dc-8612-42a0-9d6c-62bc94faaad9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdminDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CancelReservationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReservationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserRegistrationForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="a65511dc-8612-42a0-9d6c-62bc94faaad9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694157955860</updated>
       <workItem from="1694157957307" duration="6188000" />
-      <workItem from="1694446354230" duration="2540000" />
+      <workItem from="1694446354230" duration="3118000" />
     </task>
     <task id="LOCAL-00001" summary="project started">
       <created>1694158211906</created>
@@ -71,7 +60,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694158211906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated">
+      <created>1694449685394</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694449685394</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated">
+      <created>1694449868711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694449868711</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project started" />
-    <option name="LAST_COMMIT_MESSAGE" value="project started" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>
