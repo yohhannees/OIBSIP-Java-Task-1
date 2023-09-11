@@ -6,38 +6,46 @@ import java.awt.event.ActionListener;
 public class LoginForm extends JFrame {
     private JButton loginButton;
     private JButton cancelButton;
-    private JToggleButton adminToggle;
+    private JRadioButton adminRadioButton;
+    private JRadioButton userRadioButton;
     private JTextField usernameField;
     private JPasswordField passwordField;
     private UserDashboard userDashboard;
 
     public LoginForm() {
         setTitle("Home Page");
-        setSize(300, 150);
+        setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
         JPanel panel = new JPanel();
-        panel.setLayout(new GridLayout(4, 2));
+        panel.setLayout(new GridLayout(5, 2));
 
-        adminToggle = new JToggleButton("Admin Mode");
+        ButtonGroup buttonGroup = new ButtonGroup();
+        adminRadioButton = new JRadioButton("Admin Mode");
+        userRadioButton = new JRadioButton("User Mode");
+        buttonGroup.add(adminRadioButton);
+        buttonGroup.add(userRadioButton);
+        adminRadioButton.setSelected(true); // Set admin mode as default
+
         loginButton = new JButton("Login");
         cancelButton = new JButton("Cancel");
         usernameField = new JTextField();
         passwordField = new JPasswordField();
 
+        panel.add(adminRadioButton);
+        panel.add(userRadioButton);
         panel.add(new JLabel("Username:"));
         panel.add(usernameField);
         panel.add(new JLabel("Password:"));
         panel.add(passwordField);
-        panel.add(adminToggle);
         panel.add(new JLabel()); // Empty label for spacing
         panel.add(loginButton);
         panel.add(cancelButton);
 
         loginButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                if (adminToggle.isSelected()) {
+                if (adminRadioButton.isSelected()) {
                     // Admin login
                     String username = usernameField.getText();
                     String password = new String(passwordField.getPassword());
